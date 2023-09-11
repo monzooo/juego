@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0071bd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+.choices button {
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.scoreboard {
+    margin-top: 20px;
+}
+
+.scoreboard p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px;
+}
+
+button#reset {
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#reset:hover {
+    background-color: #555;
+}
+
+#mensaje {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
